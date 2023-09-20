@@ -1,0 +1,33 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules (if using any npm packages)
+node_modules/
+
+# Ignore IDE and editor folders/files
+.vscode/
+*.sublime*
+.idea/
+
+# Ignore build and distribution directories (if any)
+dist/
+build/
+
+# Ignore Sass or SCSS cache
+.sass-cache/
+
+# Ignore log files
+*.log
+
+# If using Bower for frontend packages (less common these days)
+bower_components/
+
+# Ignore cache and temporary files
+*.cache
+*.tmp
+
+# Ignore other potential sensitive or temporary files
+*.bak
+*.swp
+*.swo
